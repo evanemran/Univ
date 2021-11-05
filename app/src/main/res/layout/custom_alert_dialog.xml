@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="32dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="@color/purp"
+    app:cardCornerRadius="8dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/warning"
+            android:padding="8dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <TextView
+            android:text="No Data Found!"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/button_alert"
+            android:text="Okay"
+            android:backgroundTint="@color/purp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
